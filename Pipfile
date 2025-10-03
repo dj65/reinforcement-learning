@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+jupyterlab = "*"
 tqdm = "*"
 torch = "*"
 tensorboard = "*"
@@ -11,6 +12,8 @@ ple = {git = "https://github.com/ntasfi/PyGame-Learning-Environment.git", ref = 
 pygame = "*"
 
 [dev-packages]
+# We're utilizing this section to use the form of PLE which has full support of Flappybird
+ple = {path = "./PyGame-Learning-Environment/PyGame-Learning-Environment-master", editable = true}
 
 [requires]
 python_version = "3.11"
