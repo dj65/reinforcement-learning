@@ -24,12 +24,13 @@ git clone https://github.com/dj65/reinforcement-learning.git
 cd reinforcement-learning
 ```
 
-3. Execute the `make` script:
+3. Execute the `make` script to download and install all dependencies, and launch Jupyter Notebooks:
 
 ```bash
 make
 ```
-This script will download and install all dependencies, and launch Jupyter Notebooks. 
+
+<hr/>
 
 ![Alt Catcher](content/catcher.gif)
 ![Alt Catcher](content/tensorboard.png)
