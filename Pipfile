@@ -12,7 +12,8 @@ ple = {git = "https://github.com/ntasfi/PyGame-Learning-Environment.git", ref = 
 pygame = "*"
 
 [dev-packages]
-# We're utilizing this section to use the form of PLE which has full support of Flappybird
+# Utilizing this section to use the form of PLE which has full support for Flappybird.
+# Must use the make command to download this folder. See the README.md.
 ple = {path = "./PyGame-Learning-Environment/PyGame-Learning-Environment-master", editable = true}
 
 [requires]

@@ -9,7 +9,7 @@ The [Watch_Live_Training.ipynb](Watch_Live_Training.ipynb) notebook allows the u
 ## Getting Started
 
 ### Prerequisites
-- Python 3.11
+- Python >= 3.10
 - git
 
 ### Setup
@@ -29,8 +29,22 @@ cd reinforcement-learning
 ```bash
 make
 ```
+4. After executing all of the steps above you will have access to the Notebooks for training a model and watching the model play the games.
 
 <hr/>
 
+Here Catcher is being played by a model that was trained using the [PPO_From_Scratch.ipynb](PPO_From_Scratch.ipynb) notebook.
+
 ![Alt Catcher](content/catcher.gif)
+
+<hr/>
+
+Here Tensorboard is showing how the Rewards cross from negative to positive over it's training.
+
 ![Alt Catcher](content/tensorboard.png)
+
+<hr/>
+
+Here Flappy Bird is being played by a model that was trained using the [PPO_From_Scratch.ipynb](PPO_From_Scratch.ipynb) notebook.
+
+![All Catcher](content/flappybird.gif)
